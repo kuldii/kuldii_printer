@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
 
-import '../packages/printer.dart';
+import '../packages/kuldii_printer.dart';
 
 class PrintC extends GetxController {
   BlueThermalPrinter bluetooth = BlueThermalPrinter.instance;

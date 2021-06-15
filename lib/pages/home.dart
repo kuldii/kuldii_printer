@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../controllers/printC.dart';
-import '../packages/printer.dart';
+import '../packages/kuldii_printer.dart';
 
 class HomePage extends StatelessWidget {
   final printC = Get.put(PrintC());
